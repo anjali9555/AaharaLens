@@ -1,0 +1,44 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local storage, models, and vector database
+data/backups/
+data/storage/models/
+data/storage/qdrant_data/
+data/storage/rag_index.json
+
+# Local database store files
+data/db_store/*.json
+
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
